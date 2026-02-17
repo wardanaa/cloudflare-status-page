@@ -1,8 +1,8 @@
 {
   "settings": {
-    "title": "JH0project Status",
-    "url": "https://status.jh0project.com",
-    "description": "The status page of JH0project (JHOproject/JHo project), showing historical status and performane information.",
+    "title": "MadeWardana Status",
+    "url": "https://status.madewardana.com",
+    "description": "The status page of MadeWardana's projects, showing historical status and performane information.",
     "logo": "logo-192x192.png",
     "collectResponseTimes": true,
     "allmonitorsOperational": "All Systems Operational",
@@ -19,19 +19,19 @@
       "id": "main",
       "name": "Main Website",
       "description": "",
-      "url": "https://www.jh0project.com",
+      "url": "https://madewardana.com",
       "method": "GET",
       "expectStatus": 200,
-      "followRedirect": false
+      "followRedirect": true
     },
     {
-      "id": "dn42",
-      "name": "DN42 Website",
+      "id": "unud",
+      "name": "Unud Website",
       "description": "",
-      "url": "https://dn42.jh0project.com",
+      "url": "https://www.unud.ac.id",
       "method": "GET",
       "expectStatus": 200,
-      "followRedirect": false
+      "followRedirect": true
     }
   ]
 }
