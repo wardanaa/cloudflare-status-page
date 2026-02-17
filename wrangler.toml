@@ -1,2 +1,4 @@
+name = "cloudflare-status-page"
+main = "site/.vercel/output/static/_worker.js/index.js"
 compatibility_date = "2026-02-16"
 compatibility_flags = ["nodejs_compat"]
